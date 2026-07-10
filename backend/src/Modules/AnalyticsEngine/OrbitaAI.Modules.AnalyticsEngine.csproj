@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\OrbitaAI.Core.csproj" />
+    <ProjectReference Include="..\ImportEngine\OrbitaAI.Modules.ImportEngine.csproj" />
+    <ProjectReference Include="..\History\OrbitaAI.Modules.History.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

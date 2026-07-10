@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\OrbitaAI.Core.csproj" />
+    <ProjectReference Include="..\Modules\Administration\OrbitaAI.Modules.Administration.csproj" />
+    <ProjectReference Include="..\Modules\AnalyticsEngine\OrbitaAI.Modules.AnalyticsEngine.csproj" />
+    <ProjectReference Include="..\Modules\Audit\OrbitaAI.Modules.Audit.csproj" />
+    <ProjectReference Include="..\Modules\Dashboard\OrbitaAI.Modules.Dashboard.csproj" />
+    <ProjectReference Include="..\Modules\ExportEngine\OrbitaAI.Modules.ExportEngine.csproj" />
+    <ProjectReference Include="..\Modules\ForecastEngine\OrbitaAI.Modules.ForecastEngine.csproj" />
+    <ProjectReference Include="..\Modules\History\OrbitaAI.Modules.History.csproj" />
+    <ProjectReference Include="..\Modules\ImportEngine\OrbitaAI.Modules.ImportEngine.csproj" />
+    <ProjectReference Include="..\Modules\Licensing\OrbitaAI.Modules.Licensing.csproj" />
+    <ProjectReference Include="..\Modules\NotificationCenter\OrbitaAI.Modules.NotificationCenter.csproj" />
+    <ProjectReference Include="..\Modules\Orion\OrbitaAI.Modules.Orion.csproj" />
+    <ProjectReference Include="..\Modules\PluginSystem\OrbitaAI.Modules.PluginSystem.csproj" />
+    <ProjectReference Include="..\Modules\ReportingEngine\OrbitaAI.Modules.ReportingEngine.csproj" />
+    <ProjectReference Include="..\Modules\Security\OrbitaAI.Modules.Security.csproj" />
+    <ProjectReference Include="..\Modules\Settings\OrbitaAI.Modules.Settings.csproj" />
+    <ProjectReference Include="..\Modules\UpdateManager\OrbitaAI.Modules.UpdateManager.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

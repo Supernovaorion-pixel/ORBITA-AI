@@ -1,0 +1,16 @@
+{
+  "name": "orbita-ai-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Espace de travail racine du frontend ORBITA AI (tech/PROJECT_STRUCTURE.md §2). Squelette architectural uniquement — aucune fonctionnalité, aucun écran implémenté.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

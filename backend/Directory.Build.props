@@ -1,0 +1,16 @@
+<Project>
+  <!--
+    Propriétés communes à tous les projets du backend ORBITA AI.
+    Centralisées ici conformément au principe DRY (architecture/CODING_PRINCIPLES.md §3) :
+    aucune configuration de projet individuelle ne doit redéfinir ces valeurs.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>$(MSBuildProjectName)</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+</Project>

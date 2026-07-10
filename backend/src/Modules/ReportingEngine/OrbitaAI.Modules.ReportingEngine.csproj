@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\OrbitaAI.Core.csproj" />
+    <ProjectReference Include="..\AnalyticsEngine\OrbitaAI.Modules.AnalyticsEngine.csproj" />
+    <ProjectReference Include="..\ForecastEngine\OrbitaAI.Modules.ForecastEngine.csproj" />
+    <ProjectReference Include="..\ExportEngine\OrbitaAI.Modules.ExportEngine.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

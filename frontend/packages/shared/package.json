@@ -1,0 +1,14 @@
+{
+  "name": "@orbita-ai/shared",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Utilitaires partagés entre applications frontend (tech/PROJECT_STRUCTURE.md §2). Squelette architectural uniquement.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
